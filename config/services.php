@@ -29,5 +29,9 @@ return [
         'secret' => env('AWS_SECRET_ACCESS_KEY'),
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
-
+    'twitter' => [
+        'client_id' => 'A9QZuOMmiMUKSIaxVS4QVpa78',
+        'client_secret' => 'XuKfwjQgioXbMQy6ji2P7KWdW2sYYP40YibljL0FBdZsOGgcaN',
+        'redirect' => 'http://127.0.0.1:8000/auth/callback/twitter',
+    ],
 ];
